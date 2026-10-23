@@ -1,0 +1,14 @@
+---
+title: "Manuscript"
+format: html
+editor: visual
+---
+```{r}
+library(targets)
+library(tarchetypes)
+```
+
+```{r}
+tar_read(my_favorite_figure)
+```
+
